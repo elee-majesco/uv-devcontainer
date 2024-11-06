@@ -32,5 +32,5 @@
       ]
     }
   },
-  "postCreateCommand": "uv init ."
+  "postCreateCommand": "[ -f pyproject.toml ] || uv init . && uv python pin $(cat .python-version) && uv sync --dev"
 }
