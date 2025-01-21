@@ -1,1 +1,1 @@
-FROM ghcr.io/astral-sh/uv:0.4-bookworm
+FROM ghcr.io/astral-sh/uv:0.5-bookworm
